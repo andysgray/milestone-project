@@ -1,0 +1,225 @@
+body {
+    font-family: "Shrikhand", sans-serif;
+    color: white;
+}
+
+/*-----------------------------------------------------navbar*/
+
+
+
+.navbar-header {
+    background-color: black;
+}
+
+.navbar-default {
+    background-color: black;
+}
+
+.navbar-default .navbar-brand {
+        color: #f4f4f4;
+}
+
+.navbar .navbar-brand:hover {
+    color: orange;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: orange;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f4f4f4;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 20px 15px;
+    font-size: 35px;
+    line-height: 20px;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}    
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background-color: black;
+}
+
+
+
+/*-----------------------------------------------------header*/
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/monkees.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+   display: flex;  
+  align-items: center;
+  position: relative;
+}
+
+
+
+/*--------------------------------------------------------Jumbotron*/
+
+
+.jumbotron {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: inherit;
+    height: 30px;
+    background-color: white;
+
+}
+ 
+/*-----------------------------------------------------band members section*/
+
+.band-container {
+     background-color: #000000eb;
+     padding-top: 75px;
+     padding-bottom: 75px;
+}
+
+.band-bio {
+    font-family: sans-serif;
+}
+
+
+
+/*-----------------------------------------------------media section*/
+
+.media-container {
+    background-color: #f75506e3;
+    color: #000000;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.media {
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+/*-----------------------------------------------------news section*/
+
+.news-container {
+   background-color: #000000eb;
+   padding-top: 75px;
+   padding-bottom: 75px;
+}
+
+
+/*-----------------------------------------------------contact section*/
+
+.contact-container {
+    background-color: #e65a06f0;
+    color: #000000;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.form-details {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.input-details {
+    font-family: sans-serif;
+    font-size: 20px;
+}    
+
+
+
+.newsletter {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/*-----------------------------------------------------newsletter section*/
+
+.newsletter-container {
+    background-color: #000000eb;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+/*----------------------------------------------------------footer section*/
+
+.footer-container {
+    background-color: black;
+}
+
+
+.footer-links {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+    
+
+
+/*----------------------------------------------------------social links*/ 
+
+.social-links {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    float: right;
+    
+}
+
+.social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 15px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #000000;
+    background: #f75506e3;;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #fafafa;
+}
+
+
+/*-----------------------------------------------------------button*/
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 40px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: #1b1b1a;
+    background-color: #f4eaaa;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.text-uppercase-band {
+    color: #fafafa;
+}
