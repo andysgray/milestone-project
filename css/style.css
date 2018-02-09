@@ -173,8 +173,8 @@ body {
 
 .band-container {
      background-color: #e65a0669;
-     padding-top: 70px;
-     padding-bottom: 70px;
+     padding-top: 30px;
+     padding-bottom: 50px;
 }
 
 
@@ -183,8 +183,8 @@ body {
 
 .events-container {
      background-color: #423a3a;
-     padding-top: 70px;
-     padding-bottom: 70px;
+     padding-top: 30px;
+     padding-bottom: 50px;
 }
 
 .events-container {
@@ -216,8 +216,8 @@ body {
 .media-container {
     background-color: #e65a0669;
     color: #000000;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .media {
@@ -235,8 +235,8 @@ body {
 
 .news-container {
    background-color: #d68031a6;
-   padding-top: 70px;
-   padding-bottom: 70px;
+   padding-top: 30px;
+   padding-bottom: 50px;
 }
 
 .news-container {
@@ -255,7 +255,7 @@ body {
 .contact-container {
     background-color: #e65a0669;
     color: #000000;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 
@@ -270,7 +270,7 @@ body {
 
 .newsletter-container {
     background-color: #b15302;
-    padding-top: 70px;
+    padding-top: 30px;
     padding-bottom: 50px;
     text-align: center;
 }
