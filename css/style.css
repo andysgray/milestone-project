@@ -1,18 +1,65 @@
 body {
     font-family: "Shrikhand", sans-serif;
     color: white;
+    background-color: #e8b460;
 }
 
+
+/*----------------------------------------------------------------------text*/
+
+.text-color {
+    color: #000000;
+}
+
+.main-text {
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.main-text-bold {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.title-text {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.calling-text {
+    font-family: Poppins;
+    font-size: 30px;
+}
+
+
+
+ 
 /*-----------------------------------------------------navbar*/
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fafafa;
+}    
 
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #e65a06cf;
+    transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -webkit-transition: all 0.50s ease-in-out;
+    -o-transition: all 0.50s ease-in-out;
+}
 
 .navbar-header {
-    background-color: black;
+    background-color: #000000;
 }
 
 .navbar-default {
-    background-color: black;
+    background-color: #000000;
 }
 
 .navbar-default .navbar-brand {
@@ -20,54 +67,79 @@ body {
 }
 
 .navbar .navbar-brand:hover {
-    color: orange;
+    color: #e8b460;
 }
+
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-    color: orange;
-     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    color: #e8b460;
+    transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: #f4f4f4;
+    font-size: 25px;
 }
 
 .navbar-brand {
-    float: left;
     height: 50px;
+    float: left;
     padding: 20px 15px;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 20px;
-     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+     transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
 }    
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #e7e7e7;
-    background-color: black;
+    background-color: #000000;
 }
 
 
 
-/*-----------------------------------------------------header*/
+/*-----------------------------------------------------home page*/
 
 .callout-container {
     height: 100vh;
-    background: url("../images/monkees.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-   background-size: cover;
-   display: flex;  
-  align-items: center;
-  position: relative;
+    background: url("../images/monkees-chairs2.png") no-repeat; 
+    background-size: cover;
+    display: flex;  
+    align-items: center;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
+
+.home-container {
+    background-color: #000000;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-footer {
+    font-size: 53px;
+}
+
+.home-footer .list-inline {
+    font-size: 40px;
+}
+
+.home-image {
+    text-align: center;
+}
+    
+
+
 
 
 
@@ -82,84 +154,130 @@ body {
     color: inherit;
     height: 30px;
     background-color: white;
-
+    box-shadow: 10px 10px 10px #00000038;
 }
+
+
+
+
+
+/*------------------------------------------------------------header section*/
+ 
+ #page1 {
+    padding-top: 50px;
+} 
+
+
  
 /*-----------------------------------------------------band members section*/
 
 .band-container {
-     background-color: #000000eb;
-     padding-top: 75px;
-     padding-bottom: 75px;
+     background-color: #e65a0669;
+     padding-top: 70px;
+     padding-bottom: 70px;
 }
 
-.band-bio {
-    font-family: sans-serif;
+
+/*-------------------------------------------------------------events section*/
+
+
+.events-container {
+     background-color: #423a3a;
+     padding-top: 70px;
+     padding-bottom: 70px;
 }
+
+.events-container {
+   background: url("../images/concert.png") no-repeat fixed; 
+   background-size: cover;
+   display: flex;  
+   align-items: center;
+   position: relative;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+}
+
+.title-box-3 {
+    background-color: #af33007d;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
 
 
 
 /*-----------------------------------------------------media section*/
 
+
+
+
 .media-container {
-    background-color: #f75506e3;
+    background-color: #e65a0669;
     color: #000000;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .media {
     display: block;
     padding-bottom: 20px;
-    padding-top: 20px;
 }
 
+.media-album {
+    margin-bottom: 35px;
+    background-color: #af33007d;
+}
 
 
 /*-----------------------------------------------------news section*/
 
 .news-container {
-   background-color: #000000eb;
-   padding-top: 75px;
-   padding-bottom: 75px;
+   background-color: #d68031a6;
+   padding-top: 70px;
+   padding-bottom: 70px;
 }
 
+.news-container {
+   background: url("../images/ticket.png") no-repeat fixed; 
+   background-size: cover;
+   display: flex;  
+   align-items: center;
+   position: relative;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+}
 
 /*-----------------------------------------------------contact section*/
 
 .contact-container {
-    background-color: #e65a06f0;
+    background-color: #e65a0669;
     color: #000000;
-    padding-top: 75px;
+    padding-top: 70px;
     padding-bottom: 50px;
 }
 
-.form-details {
+.input-text {
     font-family: sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-}
-
-.input-details {
-    font-family: sans-serif;
-    font-size: 20px;
+    font-size: 16px;
 }    
-
-
-
-.newsletter {
-    text-align: center;
-    margin-bottom: 40px;
-}
 
 
 /*-----------------------------------------------------newsletter section*/
 
+
 .newsletter-container {
-    background-color: #000000eb;
-    padding-top: 75px;
+    background-color: #b15302;
+    padding-top: 70px;
     padding-bottom: 50px;
     text-align: center;
+}
+
+.newsletter {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 
@@ -173,6 +291,10 @@ body {
 .footer-links {
     text-align: center;
     text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-brand {
     font-size: 20px;
 }
     
@@ -180,46 +302,91 @@ body {
 
 /*----------------------------------------------------------social links*/ 
 
-.social-links {
+
+    
+.list-inline {
     padding-bottom: 15px;
     padding-top: 15px;
     float: right;
-    
 }
 
-.social-links li a i {
-    width: 30px;
-    height: 30px;
-    padding: 15px 0;
-    border-radius: 50%;
-    font-size: 15px;
-    line-height: 7px;
-    text-align: center;
-    color: #000000;
-    background: #f75506e3;;
+
+.fa-facebook-square {
+    color: white;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.fa-twitter-square {
+    color: white;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.fa-youtube-square {
+    color: white;
+     transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+} 
+
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}    
+
+.fa-twitter-square:hover {
+    color: #0084b4;
+}   
+
+.fa-youtube-square:hover {
+    color: #c4302b;
+}      
+
+/*-----------------------------------------------------------button*/
+
+.btn-warning {
+    background-color: #961c16;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: transparent;
+}
+
+.btn-warning:hover {
+    color: #fff;
+    background-color: #e76b17;
+    border-color: transparent;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
-    color: #fafafa;
+/*---------------------------------------------------------------media query*/
+
+    
+@media (max-width: 767px) {
+    .callout-container {
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .callout-container {
+        height: 400px;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1800px) {
+    .callout-container {
+        height: 600px;
+        
+    }
 }
 
 
-/*-----------------------------------------------------------button*/
-
-.btn-group-lg>.btn, .btn-lg {
-    padding: 10px 40px;
-    font-size: 18px;
-    line-height: 1.3333333;
-    border-radius: 6px;
-    color: #1b1b1a;
-    background-color: #f4eaaa;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
-}
-
-.text-uppercase-band {
-    color: #fafafa;
-}
