@@ -1,25 +1,62 @@
 body {
     font-family: "Shrikhand", sans-serif;
     color: white;
-    background-color: #e8b460;
+    background-color: #66b9bf;
 }
 
 
 /*----------------------------------------------------------------------text*/
 
 .text-color {
+    color: #fafafa;
+}
+
+.text-color-white {
+    color: #fafafa;
+}
+
+.text-color-black {
     color: #000000;
+}
+
+.sub-text-color {
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title-text-color {
+    color: #000000;
+    text-align: center;
 }
 
 .main-text {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.minor-text {
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+.album-main-text {
+    font-family: Poppins;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.album-main-text-2 {
+    font-family: Poppins;
+    font-size: 14px;
+    padding: 20px;
 }
 
 .main-text-bold {
     font-family: Poppins;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
+    color: #fafafa;
 }
 
 .title-text {
@@ -28,15 +65,77 @@ body {
     font-weight: bold;
 }
 
+.band-title-text {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}    
+    
+.album-title-text {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 25px
+}
+
 .calling-text {
     font-family: Poppins;
     font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 5px;
+    background-color: #fafafa;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+}
+
+.sub-heading {
+    font-family: Poppins;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sub-heading-band {
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 
+/*---------------------------------------------------------container boxes*/
 
- 
-/*-----------------------------------------------------navbar*/
+
+.title-box {
+    background-color: rgba(64, 34, 9, 0.70);
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+
+.title-box-2 {
+    background-color: #fafafa;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.title-box-3 {
+    background-color: #cc9356;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+
+/*------------------------------------------------------------------navbar*/
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fafafa;
@@ -47,7 +146,7 @@ body {
 }
 
 .navbar-default .navbar-toggle:hover {
-    background-color: #e65a06cf;
+    background-color:  #e8b460;
     transition: all 0.50s ease-in-out;
     -moz-transition: all 0.50s ease-in-out;
     -webkit-transition: all 0.50s ease-in-out;
@@ -83,6 +182,7 @@ body {
 .navbar-default .navbar-nav>li>a {
     color: #f4f4f4;
     font-size: 25px;
+  
 }
 
 .navbar-brand {
@@ -90,7 +190,7 @@ body {
     float: left;
     padding: 20px 15px;
     font-size: 30px;
-    line-height: 20px;
+    line-height: 10px;
      transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -webkit-transition: all 0.30s ease-in-out;
@@ -102,11 +202,15 @@ body {
     background-color: #000000;
 }
 
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+}
 
+/*-------------------------------------------------------------home page*/
 
-/*-----------------------------------------------------home page*/
-
-.callout-container {
+.homepage-container {
     height: 100vh;
     background: url("../images/monkees-chairs2.png") no-repeat; 
     background-size: cover;
@@ -119,73 +223,51 @@ body {
 }
 
 .home-container {
-    background-color: #000000;
+    background-color: #cc9356;
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
 }
 
-.home-footer {
-    font-size: 53px;
+.home-banner {
+    font-size: 30px;
+    padding-top: 30px;
 }
+
+.home-banner-mobile {
+    font-size: 10px;
+    padding-top: 15px;
+}
+
 
 .home-footer .list-inline {
     font-size: 40px;
+    
 }
 
 .home-image {
     text-align: center;
 }
     
-
-
-
-
-
-/*--------------------------------------------------------Jumbotron*/
-
-
-.jumbotron {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    color: inherit;
-    height: 30px;
-    background-color: white;
-    box-shadow: 10px 10px 10px #00000038;
-}
-
-
-
-
-
-/*------------------------------------------------------------header section*/
- 
  #page1 {
     padding-top: 50px;
 } 
 
 
- 
 /*-----------------------------------------------------band members section*/
 
 .band-container {
-     background-color: #e65a0669;
+     background-color: #366f86;
      padding-top: 30px;
      padding-bottom: 50px;
+}
+
+.band-members img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
 }
 
 
 /*-------------------------------------------------------------events section*/
-
-
-.events-container {
-     background-color: #423a3a;
-     padding-top: 30px;
-     padding-bottom: 50px;
-}
 
 .events-container {
    background: url("../images/concert.png") no-repeat fixed; 
@@ -193,28 +275,18 @@ body {
    display: flex;  
    align-items: center;
    position: relative;
+   padding-top: 30px;
+   padding-bottom: 50px;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
 }
 
-.title-box-3 {
-    background-color: #af33007d;
-    padding: 20px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-}
 
-
-
-
-/*-----------------------------------------------------media section*/
-
-
-
+/*------------------------------------------------------------media section*/
 
 .media-container {
-    background-color: #e65a0669;
+    background-color: #366f86;
     color: #000000;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -226,15 +298,28 @@ body {
 }
 
 .media-album {
-    margin-bottom: 35px;
-    background-color: #af33007d;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #cc9356;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+}
+
+.media-album img {
+    border-radius: 5px;
+}
+
+.media-photos {
+    display: block;
+    padding-bottom: 20px;
 }
 
 
-/*-----------------------------------------------------news section*/
+/*-------------------------------------------------------------news section*/
 
 .news-container {
-   background-color: #d68031a6;
+   
    padding-top: 30px;
    padding-bottom: 50px;
 }
@@ -250,34 +335,48 @@ body {
    -o-background-size: cover;
 }
 
-/*-----------------------------------------------------contact section*/
+
+/*-----------------------------------------------------------contact section*/
 
 .contact-container {
-    background-color: #e65a0669;
+    background-color: #cc9356;
     color: #000000;
     padding-top: 30px;
-    padding-bottom: 50px;
 }
 
 .input-text {
     font-family: sans-serif;
     font-size: 16px;
-}    
+}  
+
+.contact-section {
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: #366f86;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+}
+
+.contact-image img {
+    border-radius: 5px;
+    margin-top: 100px;
+}
 
 
 /*-----------------------------------------------------newsletter section*/
 
-
 .newsletter-container {
-    background-color: #b15302;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    text-align: center;
+    background-color: #cc9356;
+    padding-bottom: 20px;
 }
 
 .newsletter {
-    text-align: center;
-    margin-bottom: 40px;
+   margin-bottom: 40px;
+}
+
+.newsletter-image img {
+    border-radius: 5px;
 }
 
 
@@ -296,20 +395,36 @@ body {
 
 .footer-brand {
     font-size: 20px;
+    padding-top: 15px;
 }
     
+/*-----------------------------------------------------------------quotes*/
+
+
+.quote {
+    color: #000000;;
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-right: 30px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+}
 
 
 /*----------------------------------------------------------social links*/ 
 
 
-    
 .list-inline {
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 10px;
     float: right;
 }
 
+.social-links {
+    padding-bottom: 15px;
+    padding-top: 30px;
+    float: right;
+}
 
 .fa-facebook-square {
     color: white;
@@ -326,6 +441,7 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
 .fa-youtube-square {
     color: white;
      transition: all 0.35s ease-in-out;
@@ -333,7 +449,6 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 } 
-
 
 .fa-facebook-square:hover {
     color: #3b5998;
@@ -346,6 +461,7 @@ body {
 .fa-youtube-square:hover {
     color: #c4302b;
 }      
+
 
 /*-----------------------------------------------------------button*/
 
@@ -367,26 +483,36 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.contact-button {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
 /*---------------------------------------------------------------media query*/
 
     
 @media (max-width: 767px) {
-    .callout-container {
+    .homepage-container {
         height: 200px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .callout-container {
+    .homepage-container {
         height: 400px;
     }
 }
 
 @media(min-width: 992px) and (max-width: 1800px) {
-    .callout-container {
+    .homepage-container {
         height: 600px;
         
     }
 }
 
-
+@media (min-width: 1800px) {
+    .homepage-container {
+        height: 900px;
+    }
+}

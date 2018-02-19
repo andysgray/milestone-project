@@ -6,13 +6,13 @@
     <title>The Monkees</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" /> 
-    <link href="https://fonts.googleapis.com/css?family=Shrikhand: 400,400i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins: 400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
-<!--nav-------------------------------------------------------------------->    
+<!------------------------------------------------------------------------nav-->    
     
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid nav-container">
@@ -20,11 +20,11 @@
                 <div class="col-xs-12">
                 </div>
             </div>
-            <div class="visible-xs navbar-header">
+            <div class="navbar-header">
                 <a href="index.html" class="navbar-brand">
                   THE MONKEES
                 </a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -34,12 +34,11 @@
             <div class="navbar-collapse collapse" id="navbar">
                 <div id="nav">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#band">Band</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#media">Media</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#band"><p class="title-text">Band</p></a></li>
+                    <li><a href="#events"><p class="title-text">Events</p></a></li>
+                    <li><a href="#media"><p class="title-text">Media</p></a></li>
+                    <li><a href="#news"><p class="title-text">News</p></a></li>
+                    <li><a href="#contact"><p class="title-text">Contact</p></a></li>
                 </ul>
                 <ul class="visible-xs list-inline">
                     <li><a target="blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook-square fa-2x"></i></a></li>
@@ -51,11 +50,12 @@
         </div>
     </nav>
 
-<!--home------------------------------------------------------------------>  
+<!------------------------------------------------------------------------home-->  
 
 <div id="page1">
     <a id="home" class="smooth"></a>    
-    <div class="container-fluid callout-container">
+    
+    <div class="container-fluid homepage-container">
         <div class="row">
             <div class="col-xs-12">
             </div>
@@ -63,45 +63,36 @@
     </div>
 </div>
 
-<!--home callout-----> 
+<!-----------------------------------------------------------------home banner--> 
 
-<div class="hidden-xs container-wrapper">
-    <div class="container-fluid home-container">
-        <section class="home">
-            <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 hidden-sm">
-                    <div class="home-footer">
-                    THE MONKEES
-                    <br>
-                    
+<div class="container-wrapper">
+    <div class="container-fluid home-container">  
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 hidden-xs hidden-sm">
+                <div class="home-banner">
+                    50th ANNIVERSARY TOUR
+                </div>
+            </div> 
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                <div class="media">
                     <div class="media-left">
-                        <div class="media-left">
-                            </div>
-                            <a href="#events"><button type="submit" class="btn btn-warning"><p class="title-text">50th Anniversary Tour Dates & Tickets</p></button></button></a> 
-                            </div>
-                        </div>
-                    </div> 
-                
-                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-                    <div class="media">
-                        <div class="media-left">
-                            <img src="./images/monkees50-fade.png" class="img-square media-object" height=150 width=230>
-                        </div>
+                        <a href="#events"><img src="./images/monkees50-fade.png" class="img-square media-object" height=90 width=160 alt="monkees logo"></a>
+                        <p class="main-text-bold">TOUR DATES & TICKETS</p> 
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-                <ul class="list-inline">
-                    <p>Follow the MONKEES</p>
-                    <li><a target="blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook-square fa-3x"></i></a></li>
-                    <li><a target="blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter-square fa-3x"></i></a></li>
-                    <li><a target="blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube-square fa-3x"></i></a></li>
-                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+                <div class="social-links">
+                    <ul class="list-inline">
+                        <li><a target="blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+                        <li><a target="blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter-square fa-3x"></i></a></li>
+                        <li><a target="blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube-square fa-3x"></i></a></li>
+                    </ul>
                 </div>
             </div>
-        </section>        
+        </div>
     </div>
 </div>
-
 
 <!---------------------------------------------------------------band section-->
 
@@ -113,61 +104,82 @@
         <section class="band">
             <div class="row">
                 <div class="col-xs-12">
-                    
-                    <div class="jumbotron">
-                        <h2 class="text-color">Band:</h2>
-                    </div>
-                    <div class="band-image">
-                        <p class="calling-text text-color">Discover The Monkees</p>
-                        <img src="./images/cover3.jpg" height=210 width=330>
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="section-title">
+                            <h2 class="title-text-color">BAND</h2>
+                        </div>
                     </div>
                     <hr>
-                    <p class="title-text text-color">In 1965, over 400 people responded to an ad seeking young men for a new television
-                    show about a rock group called The Monkees. The Monkees, starring Davy Jones, Micky Dolenz, Michael Nesmith, and Peter Tork 
-                    premiered on September 12, 1966, and audiences adored the humorous antics of the band. 
-                    Though made for TV, The Monkees had real-life hits. Some of their best-loved and number one hits included 
-                    Neil Diamond's "I'm a Believer" and "Last Train to Clarksville." More successful singles followed, including another
-                    Neil Diamond song, "Little Bit Me, Little Bit You," Gerry Goffin and Carole King's "Pleasant Valley Sunday", 
-                    and "Daydream Believer" by John Stewart of the Kingston Trio.</p>
-                    <hr class="block-divider block-divider--long block-divider--white">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="title-box-3">
+                            <div class="sub-heading-band">
+                            <h2 class="text-color-black">The Monkees</h2>
+                           </div>
+                            <p class="band-title-text title-text-color">In 1965, over 400 people responded to an ad seeking young men for a new television
+                            show about a rock group called The Monkees. The Monkees, starring Davy Jones, Micky Dolenz, Michael Nesmith, and Peter Tork 
+                            premiered on September 12, 1966, and audiences adored the humorous antics of the band. 
+                            Though made for TV, The Monkees had real-life hits. Some of their best-loved and number one hits included 
+                            "I'm a Believer" and "Last Train to Clarksville." More successful singles followed, incuding "Little Bit Me, 
+                            Little Bit You" to "Pleasant Valley Sunday", and "Daydream Believer".</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-xs-12">
+                        <div class="sub-heading">
+                            <h2 class="sub-text-color">Discover The Band</h2>
+                            <hr>
+                        </div>
+                    </div>
+                    <hr>
                     <div class="col-xs-12 col-md-6">
-                        <div class="media">
+                         <div class="media">
                             <div class="media-left">
-                            <img src="./images/dj.jpg" class="img-square media-object" height=100 width=100>
+                                <div class="band-members">    
+                                    <img src="./images/dj.jpg" class="img-square media-object" height=100 width=100 alt="band member image">
+                                </div>
                             </div>
                             <div class="media-body">
-                                <p class="title-text text-color">Davey Jones... Vocals</p>
-                                <p class="main-text text-color">The Monkees debuted on television in September 1966, and 
-                                Davy Jones attracted a lot of attention from fans for his charm, wit, warm sense 
-                                of humor and boyish good looks. The Monkees soon scored on the music charts with 
-                                hits like "I'm a Believer," "Pleasant Valley Sunday" and "Daydream Believer".</p>
+                                <p class="title-text text-color">Davey Jones...
+                                <br>
+                                Vocals</p>
+                                <p class="main-text text-color">Born December 30th 1945, Davy Jones attracted a 
+                                lot of attention from fans for his charm, wit and warm sense 
+                                of humor when The Monkees debuted on television in September 1966. 
+                                The Monkees soon scored on the music charts with hits like "I'm a Believer," 
+                                and "Daydream Believer".</p>
                             </div>
                         </div>
                     </div>    
                     <div class="col-xs-12 col-md-6">
                         <div class="media">
                             <div class="media-left">
-                            <img src="./images/md.jpg" class="img-square media-object" height=100 width=100>
-                            </div>
+                                <div class="band-members">
+                                    <img src="./images/md.jpg" class="img-square media-object" height=100 width=100 alt="band member image">
+                                </div>
+                            </div>    
                             <div class="media-body">
-                                    <p class="title-text text-color">Micky Dolenz... Vocals-drums</p>
-                                    <p class="main-text text-color">Singer, musician, actor, writer, producer, director.
-                                    Born George Michael Dolenz on March 8, 1945, in Los Angeles, California. 
-                                    Dolenz grew up in Los Angeles as the son of actor George Dolenz, who is 
-                                    best known for playing the Count of Monte Cristo on television.. He had 
-                                    a few television roles and played with bands before being cast in 
-                                    The Monkees, a show about a fictitious rock band. Though made for TV, 
-                                    The Monkees had real-life hits</p>
+                                <p class="title-text text-color">Micky Dolenz...
+                                <br>
+                                Vocals-drums</p>
+                                <p class="main-text text-color">Singer, musician, actor, writer, producer, director.
+                                Born George Michael Dolenz on March 8, 1945, in Los Angeles, California. 
+                                He had a few television roles and played with bands before being cast in 
+                                The Monkees, a show about a fictitious rock band. Though made for TV, 
+                                The Monkees had real-life hits.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
                         <div class="media">
                             <div class="media-left">
-                            <img src="./images/mn.jpg" class="img-square media-object" height=100 width=100>
+                                <div class="band-members">
+                                    <img src="./images/mn.jpg" class="img-square media-object" height=100 width=100 alt="band member image">
+                                </div>
                             </div>
                             <div class="media-body">
-                                <p class="title-text text-color">Michael Neysmith... Guitar-vocals</p>
+                                <p class="title-text text-color">Michael Neysmith... 
+                                <br>
+                                Guitar-vocals</p>
                                 <p class="main-text text-color">Born in Texas in 1942, Nesmith served 
                                 in the U.S. Air Force before pursuing a career in music. 
                                 He signed on to become a member of the Monkees, a television 
@@ -177,12 +189,16 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <div class="media">
+                         <div class="media">
                             <div class="media-left">
-                            <img src="./images/pt.jpg" class="img-square media-object" height=100 width=100>
-                            </div>
+                                <div class="band-members">
+                                    <img src="./images/pt.jpg" class="img-square media-object" height=100 width=100 alt="band member image">
+                                </div>
+                            </div>    
                             <div class="media-body">
-                                <p class="title-text text-color">Peter Tork... Bass guitar-vocals-keyboard</p>
+                                <p class="title-text text-color">Peter Tork... 
+                                <br>
+                                Bass guitar-vocals-keyboard</p>
                                 <p class="main-text text-color">Born in 1942, Peter Tork achieved big pop music 
                                 success in the 1960s, with such hits as "Daydream Believer" and "Last 
                                 Train to Clarksville." Moving to California, he landed a part in 
@@ -195,10 +211,11 @@
             </div>    
         </section>
     </div>
-</div>  
+</div> 
 
+</div>
 
-<!--events section-------------------------------------------------------------->
+<!--------------------------------------------------------------events section-->
  
 <div id="page3">
     <a id="events" class="smooth"></a>
@@ -208,61 +225,99 @@
         <section class="events">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="jumbotron">
-                        <h2 class="text-color">EVENTS:</h2>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <div class="media">
-                            <div class="title-box-3">
-                                <div class="media-left">
-                                     <div class="media-left">
-                            <img src="./images/monkees50-red1.png" class="img-square media-object" height=250 width=250>
-                            </div>
-                                <p class="title-text">THE MONKEES 50th anniversary live tour</p>
-                                <br>
-                                <p class="main-text">To celebrate over 50 years since
-                                the formation of the The Monkees, the band are hitting the road this year.
-                                <br>
-                                They are embarking on an extensive tour to belt out
-                                all the classics including some new material.
-                                <br>
-                                If you want to catch them live and to purchase tickets to the gigs check out the following tour dates.....</p>
-                                <hr>
-                                <p class="main-text-bold">Don't miss out!</p><p class="main-text">
-                                More tour dates and venues to be announced so be sure to hit 
-                                the subscribe button and be the first to know!
-                                </p>
-                                <a href="#newsletter"><button type="submit" class="btn btn-warning">SUBSCRIBE</button></a>     
-                                <br>
-                                </div>
-                            </div>
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="section-title">
+                            <h2 class="title-text-color">EVENTS</h2>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
                         <div class="media">
-                            <div class="title-box-3">
+                            <div class="title-box">
                                 <div class="media-left">
-                                   <p class="calling-text">Tour dates and venues</p>
-                                   <hr>
-                                   <div class="media-body main-text-bold">
-                                   <p>
-                                    May 18 - Fort Myers, FL @ Barbara B. Mann Performing Arts Hall
-                                    <br>
-                                     <button type="submit" class="btn btn-warning">TICKETS</button>
-                                    <hr>
-                                    May 21 - Atlanta, GA @ Frederick Brown Jr. Amphitheater
+                                    <div class="media-left">
+                                        <img src="./images/monkees50-red1.png" class="img-square media-object" height=250 width=250 alt="monkees logo">
+                                    </div>
+                                        <p class="title-text">THE MONKEES 50th ANNIVERSARY LIVE TOUR</p>
+                                        <br>
+                                        <p class="main-text">To celebrate over 50 years since
+                                        the formation of the The Monkees, the band are hitting the road this year.
+                                        <br>
+                                        They are embarking on an extensive live tour across Europe and
+                                        North America to belt out all the classics including some new material.
+                                        <br>
+                                        If you want to catch them live check out the following tour dates and tickets.....</p>
+                                        <hr>
+                                        <p class="main-text-bold">Don't miss out!</p><p class="main-text">
+                                        More tour dates and venues to be announced, click <a href="#newsletter">HERE</a> and be the first to know!
+                                        </p>
+                                        <br>                   
+                                    </div>
+                                </div>
+                                <div class="title-box">
+                                    <div class="media-left">
+                                        <p class="calling-text">EUROPE
+                                        <br>
+                                        TOUR DATES AND VENUES</p>
+                                        <hr>
+                                        <div class="main-text-bold">
+                                        <p>
+                                        March 2 - Dublin, Ireland @ 3 Arena
+                                        <br>
+                                        <button type="submit" class="btn btn-warning">TICKETS</button>
+                                        <hr>
+                                        March 10 - London, UK @ Wembley Arena
+                                        <br>
+                                        <button type="submit" class="btn btn-warning">TICKETS</button>
+                                        <hr>
+                                        March 17 - Manchester, UK @ Manchester Arena
+                                        <br>
+                                        <button type="submit" class="btn btn-warning">TICKETS</button>
+                                        <hr>
+                                        March 24 - Paris, France @ AccorHotels Arena
+                                        <br>
+                                        <button type="submit" class="btn btn-warning">TICKETS</button>
+                                        <hr>
+                                        March 29 - Lisbon, Portugal @ Altice Arena
+                                        <br>
+                                        <button type="submit" class="btn btn-warning">TICKETS</button>
+                                        <hr>
+                                        April 5 - Berlin, Germany @ O2 World Arena
+                                        <br>
+                                        <button type="submit" class="btn btn-warning">TICKETS</button>
+                                        <hr>
+                                        April 12 - Amsterdam, Netherlands @ Amsterdam Arena
+                                        <br>
+                                        <button type="submit" class="btn btn-warning">TICKETS</button>
+                                        <hr>
+                                        April 20 - Stockholm, Sweden @ Friends Arena
+                                        <br>
+                                        <button type="submit" class="btn btn-warning">TICKETS</button>
+                                        <hr>
+                                        More dates to be announced.
+                                    </div>
+                                </div>
+                            </div>       
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="media">
+                            <div class="title-box">
+                                <div class="media-left">
+                                     <p class="calling-text">NORTH AMERICA
+                                     <br>
+                                     TOUR DATES AND VENUES</p>
+                                     <hr>
+                                     <div class="media-body main-text-bold">
+                                     <p>
+                                    May 10 - Fort Myers, FL @ Barbara B. Mann Performing Arts Hall
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
-                                    May 24 - Charlotte, NC @ Blumenthal PAC - Belk Theater
+                                    May 19 - Charlotte, NC @ Blumenthal PAC - Belk Theater
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
-                                    May 26 - Washington, DC @ Warner Theatre
-                                     <br>
-                                     <button type="submit" class="btn btn-warning">TICKETS</button>
-                                     <hr>
-                                    May 28 - Philadelphia, PA @ Keswick Theatre
+                                    May 25 - Philadelphia, PA @ Keswick Theatre
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
@@ -270,27 +325,19 @@
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
-                                    June 3 - Toronto, ON @ Casino Rama
+                                    June 7 - Toronto, ON @ Casino Rama
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
-                                    June 5 - Cleveland, OH @ Hard Rock Live Northfield Park
+                                    June 12 - Fort Wayne, IN @ Foellinger Theatre
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
-                                    June 7 - Fort Wayne, IN @ Foellinger Theatre
+                                    June 18 - Louisville, KY @ Louisville Palace Theatre
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
-                                    June 10 - Louisville, KY @ Louisville Palace Theatre
-                                     <br>
-                                     <button type="submit" class="btn btn-warning">TICKETS</button>
-                                     <hr>
-                                    June 14 - Dayton, OH @ Rose Music Center at The Heights
-                                     <br>
-                                     <button type="submit" class="btn btn-warning">TICKETS</button>
-                                     <hr>
-                                    June 28 - Dallas, TX @ AT&T PAC – Winspear Opera House
+                                    June 22 - Dayton, OH @ Rose Music Center at The Heights
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
@@ -298,7 +345,7 @@
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
-                                    July 1 - Mayetta, KS @ Prairie Band Casino & Resort
+                                    July 7 - Mayetta, KS @ Prairie Band Casino & Resort
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
@@ -314,30 +361,11 @@
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
-                                    September 17 - Las Vegas, NV @ Primm Valley Casino Resorts
+                                     September 21 - San Francisco, CA @ The Warfield
                                      <br>
                                      <button type="submit" class="btn btn-warning">TICKETS</button>
                                      <hr>
-                                    September 20 - San Francisco, CA @ The Warfield
-                                     <br>
-                                     <button type="submit" class="btn btn-warning">TICKETS</button>
-                                     <hr>
-                                    September 25 - Seattle, WA @ The Moore Theatre
-                                     <br>
-                                     <button type="submit" class="btn btn-warning">TICKETS</button>
-                                     <hr>
-                                    October 1 - Biloxi, MS @ Hard Rock Live
-                                     <br>
-                                     <button type="submit" class="btn btn-warning">TICKETS</button>
-                                     <hr>
-                                    October 22 - Paso Robles, CA @ Vina Robles Amphitheatre
-                                     <br>
-                                     <button type="submit" class="btn btn-warning">TICKETS</button>
-                                     <hr>
-                                    October 29 - Shippensburg, PA @ H. Ric Luhrs PAC
-                                     <br>
-                                     <button type="submit" class="btn btn-warning">TICKETS</button>
-                                    </p>
+                                    More dates to be announced.
                                     </div>
                                 </div>
                             </div>
@@ -347,11 +375,11 @@
             </div>
         </section>
     </div>
-</div>    
- 
- 
-<!--media section-------------------------------------------------------------->
+</div>
 
+</div>
+ 
+<!-------------------------------------------------------------media section-->
 
 <div id="page4">
     <a id="media" class="smooth"></a>
@@ -361,119 +389,128 @@
         <section class="media">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="jumbotron">
-                        <h2 class="text-color">MEDIA:</h2>
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="section-title">
+                            <h2 class="title-text-color">MEDIA:</h2>
+                        </div>
                     </div>
-                        
-                
 <!--music tracks---> 
                     <div class="col-xs-12">
-                        <h2 class="text-color">Music:</h2>
-                        <p class="main-text">Over the past 50 years The Monkees have amassed a wealth
-                        of classic and catchy songs.
-                        <br>
-                        Just in case your new to the sounds of The Monkees or even if your
-                        a seasoned fan, you can take a listen to some of their best known and succesfull hits down below.... </p>
-                    </div>
-                    <hr>
-                    <div class="col-xs-12 col-md-6 col-lg-6">
-                        <div class="media-album">
-                            <img src="./images/last train to clarksville.png" class="img-square media-object" height=300 width=300><P class="title-text">Last Train To Clarksville</P>
-                        </div>  
-                            <audio controls>
-                            <source src="./audio/Clarksville.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                            </audio>
+                        <div class="sub-heading">
+                            <h2 class="sub-text-color">MUSIC</h2>
                             <hr>
+                        </div>
+                            <p class="main-text sub-heading text-color"><b>Over the past 50 years The Monkees have amassed a wealth
+                            of classic and catchy songs.
+                            <br>
+                            If your new to the sounds of The Monkees or even if your
+                            a lifelong fan, you can take a listen to some of their best known and succesfull hits down below....
+                            </b></p>
                         </div>
                     <div class="col-xs-12 col-md-6 col-lg-6">
                         <div class="media-album">
-                            <img src="./images/daydream believer.png" class="img-square media-object" height=300 width=300><P class="title-text">Daydream Believer</P>
-                        </div> 
-                            <audio controls>
-                            <source src="./audio/DaydreamBeliever.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                            </audio>
-                            <hr>
+                            <img src="./images/last-train-to-clarksville.png" class="img-square media-object" height=300 width=300 alt="album image">
+                                <audio controls>
+                                <source src="./audio/Clarksville.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                                </audio>
+                                <P class="album-title-text">Last Train To Clarksville</P>
+                            <div class="title-box-2">            
+                                <p class="album-main-text"><b>Last Train to Clarksville</b> was their debut single in 1966.
+                                Lead vocals were performed by drummer Micky Dolenz. 
+                                The song was featured in seven episodes of the Monkees TV show.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-6">
                         <div class="media-album">
-                            <img src="./images/steppin stone.png" class="img-square media-object" height=300 width=300><P class="title-text">Steppin' Stone:</P>
-                        </div>
-                            <audio controls>
-                            <source src="./audio/SteppingStone.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                            </audio>
-                            <hr>
+                            <img src="./images/daydream-believer.png" class="img-square media-object" height=300 width=300 alt="album image">
+                               <audio controls>
+                               <source src="./audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                               Your browser does not support the audio element.
+                               </audio>
+                               <P class="album-title-text">Daydream Believer</P>
+                            <div class="title-box-2">  
+                                <p class="album-main-text"><b>Daydream Believer</b> is probably one of the most recognised of all the
+                                songs released by The Monkees. Davey Jones takes on lead vocals
+                                on the record which was released in 1967.</p>
+                            </div>                                
+                        </div>    
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-6">
                         <div class="media-album">
-                            <img src="./images/im a believer.png" class="img-square media-object" height=300 width=300><P class="title-text">Im A Believer</P>
-                        </div>
-                            <audio controls>
-                            <source src="./audio/ImABeliever.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                            </audio>
-                            <hr>
+                            <img src="./images/steppin-stone.png" class="img-square media-object" height=300 width=300 alt="album image">
+                                <audio controls>
+                                <source src="./audio/SteppingStone.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                                </audio>
+                                <P class="album-title-text">Steppin' Stone</P>
+                            <div class="title-box-2">  
+                                <p class="album-main-text">The Monkees recorded and released <b>Steppin' Stone</b> in November 1966, 
+                                (making it the first Monkees B-side to chart). Micky Dolenz performs lead vocals. </p>
+                            </div>
+                        </div>    
                     </div>
-                    
-                    
-<!--video----------> 
+                    <div class="col-xs-12 col-md-6 col-lg-6">
+                        <div class="media-album">
+                            <img src="./images/im-a-believer.png" class="img-square media-object" height=300 width=300 alt="album image">
+                                <audio controls>
+                                <source src="./audio/ImABeliever.mp3" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                                </audio>
+                                <P class="album-title-text">Im A Believer</P>
+                            <div class="title-box-2"> 
+                                <p class="album-main-text"><b>I'm a Believer</b> was recorded by The Monkees in 1966 with the lead vocals by Micky Dolenz. 
+                                The single hit the number one spot on the U.S. Billboard Hot 100.</p>
+                            </div>
+                        </div>
+                    </div>
+<!---------video-->                     
                     <div class="col-xs-12 ">
-                        <h2 class="text-color">Video:</h2>
+                        <div class="sub-heading">
+                            <h2 class="sub-text-color">VIDEO</h2>
+                            <hr>
                         </div>
-                        <div class="col-xs-12 col-md-6 col-lg-6">
-                            <div class="media">
-                            <div class="title-box-3">
-                                <div class="media-left">
-                            
-                            <h4 class="title-text">Daydream Believer:</h4>
+                    </div>    
+                    <div class="col-xs-12 col-md-6 col-lg-6">
+                        <div class="media-album">
                             <video width="275" height="190" controls>
                             <source src="./video/TheMonkees.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                             </video>
-                            
-                            
-                            </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-6 col-lg-6">
-                           <div class="media">
-                            <div class="title-box-3">
-                                <div class="media-left">
-                                   <div class="media-body main-text">
-                                        <p> <b>Daydream Believer</b> is probably one of The Monkees most successful songs.
-                                        It was originally recorded by The Monkees, 
-                                        with Davy Jones singing lead vocals. The single hit 
-                                        the number one spot on the U.S. Billboard Hot 100 chart 
-                                        in December 1967, remaining there for four weeks, and peaked 
-                                        at number five in the UK Singles Chart. It was the Monkees' last 
-                                        number one hit in the U.S.
-                                        <br>
-                                        <b>Lead/backing vocals</b>: Davy Jones
-                                        <br>
-                                        <b>Harmony vocal:</b> Micky Dolenz
-                                        <br>
-                                        <b>Electric guitar:</b> Michael Nesmith
-                                        <br>
-                                        <b>Piano:</b> Peter Tork</p> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
+                            <h4 class="album-title-text">Daydream Believer</h4>
+                        </div>    
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-6">
+                        <div class="media-album">
+                            <div class="media-body album-main-text-2">
+                                <p> <b>Daydream Believer</b> is one of The Monkees' most successful songs.
+                                It was originally recorded by The Monkees, 
+                                with Davy Jones singing lead vocals. 
+                                <br>
+                                The single hit the number one spot on the U.S.
+                                Billboard Hot 100 chart in December 1967. 
+                                It was the Monkees' last number one hit in the U.S.
+                                <br>
+                                <b>Lead/backing vocals</b>: Davy Jones
+                                <br>
+                                <b>Harmony vocal:</b> Micky Dolenz
+                                <br>
+                                <b>Electric guitar:</b> Michael Nesmith
+                                <br>
+                                <b>Piano:</b> Peter Tork</p> 
+                            </div>   
+                        </div>    
                     </div>
                 </div>
-           </div>
+            </div>
         </section>
     </div>  
 </div>
+
 </div>
 
-
-<!--news section-------------------------------------------------------------> 
-
+<!--------------------------------------------------------------news section--> 
 
 <div id="page5">
     <a id="news" class="smooth"></a>
@@ -483,12 +520,14 @@
         <section class="news">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="jumbotron">
-                        <h2 class="text-color">NEWS:</h2>
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="section-title">
+                            <h2 class="title-text-color">NEWS</h2>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="media">
-                            <div class="title-box-3">
+                            <div class="title-box">
                                 <div class="media-left">
                                     <p class="main-text">As you may well know, The Monkees are embarking
                                     on a live tour this year and bringing with them all the classic
@@ -507,26 +546,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-6 col-lg-6">
                         <div class="media">
-                            <div class="title-box-3">
+                            <div class="title-box">
                                 <div class="media-left">
-                                    <h3 class="calling-text">The Monkees 50th Anniversary Blu-ray Collection.....</h4>
+                                    <h3 class="calling-text">THE MONKEES BLU-RAY COLLECTION.....</h3>
                                 </div>
                                 <div class="hidden-xs">
-                                <img src="./images/monkeesdvd.png" class="img-square media-object" height=400 width=400>
-                                    <p class="main-text">The monkees make the jump into the 21st Century with this High Definition collection</p>
+                                    <img src="./images/monkeesdvd.png" class="img-square media-object" height=400 width=400 alt="album image">
+                                    <p class="minor-text">THE MONKEES make the jump into the 21st Century with this High Definition collection</p>
                                 </div>
                                 <div class="hidden-sm hidden-md hidden-lg">
-                                <img src="./images/monkeesdvd.png" class="img-square media-object" height=250 width=250>
-                                    <p class="main-text">The monkees make the jump into the 21st Century with this High Definition collection</p>
+                                    <img src="./images/monkeesdvd.png" class="img-square media-object" height=250 width=250 alt="album image">
+                                    <p class="minor-text">THE MONKEES make the jump into the 21st Century with this High Definition collection</p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <div class="media">
-                            <div class="title-box-3">
+                                <hr>
                                 <div class="media-left">
                                    <div class="media-body main-text">
                                         <p>Over fifty years ago, a casting call was printed in The Hollywood Reporter's 
@@ -538,55 +572,41 @@
                                         All 58 episodes of The Monkees TV show, which aired from September 1966 to March 1968
                                         feature on the 10-disc set. 
                                         Each episode, as well as Head, are digitally restored in high-definition 
-                                        from the original film negatives. This limited edition collection features 
-                                        the 1969 TV special 33 1/3 Revolutions Per Monkee plus bonus features like 
-                                        commercials starring the members and never-before-seen outtakes from Head.
-                                        You can grab yorself a copy at any good online retailer.</p> 
+                                        from the original film negatives.
+                                        You can grab a copy at any good online retailer.</p> 
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-6 col-lg-6">
                         <div class="media">
-                            <div class="title-box-3">
+                            <div class="title-box">
                                 <div class="media-left">
                                     <h3 class="calling-text">MORE OF THE MONKEES
                                     <br>
-                                    (SUPER DELUXE EDITION)....</h4>
+                                    (SUPER DELUXE EDITION)....</h3>
                                 </div>
                                 <div class="hidden-xs">
-                                <img src="./images/monkees-cd.png" class="img-square media-object" height=400 width=400>
-                                    <p class="main-text">MORE OF THE MONKEES with a staggering 91 tracks</p>
+                                    <img src="./images/monkees-cd.png" class="img-square media-object" height=400 width=400 alt="album image">
+                                    <p class="minor-text">MORE OF THE MONKEES with 91 tracks including previously
+                                    unreleased tracks</p>
                                 </div>
                                 <div class="hidden-sm hidden-md hidden-lg">
-                                <img src="./images/monkees-cd.png" class="img-square media-object" height=250 width=250>
-                                    <p class="main-text">MORE OF THE MONKEES with a staggering 91 tracks</p>
+                                    <img src="./images/monkees-cd.png" class="img-square media-object" height=250 width=250 alt="album image">
+                                    <p class="minor-text">MORE OF THE MONKEES with 91 tracks including previously
+                                    unreleased tracks</p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <div class="media">
-                            <div class="title-box-3">
+                                <hr>
                                 <div class="media-left">
-                                   <div class="media-body main-text">
-                                        <p>Who's ready for even more of MORE? In honor of 50th anniversary this year,
-                                        we've super-sized MORE OF THE MONKEES with a staggering 91 tracks including 
+                                    <div class="media-body main-text">
+                                        <p>In honor of their 50th anniversary THE MONKEES release a staggering 91 track album including 
                                         55 previously-unreleased alternate takes, remixes, and newly discovered concert 
                                         recordings from 1967, the band's earliest-known live tracks, as well as a bonus 
-                                        7” of “I’m A Believer” (Remix)/”(I’m Not Your) Steppin’ Stone” (Vocals Only).
-                                        
-                                        MORE OF THE MONKEES: SUPER DELUXE EDITION significantly expands the special edition 
-                                        of MORE OF THE MONKEES released in 2006. Along with mono and stereo mixes of the 
+                                        7” of “I’m A Believer”.
+                                        MORE OF THE MONKEES: SUPER DELUXE EDITION includes all their hits along with mono and stereo mixes of the 
                                         original album, the SUPER DELUXE EDITION takes listeners into the studio for the 
-                                        making of the album through extensive studio outtakes. Many make their debut here, 
-                                        including the first recorded versions of: "Words," "Valleri," "Hold On Girl" and more. 
+                                        making of the album through extensive studio outtakes.. 
                                         Backing tracks for early version of "Sometime In The Morning," "I'm A Believer" and "Look Out 
                                         (Here Comes Tomorrow)" offer a behind-the-scenes perspective on the creative process. 
                                         </p> 
@@ -597,16 +617,13 @@
                     </div>
                 </div>
             </div>
-            
         </section>
     </div>
 </div>    
+
+</div> 
  
-
-
-
-<!--contact------------------------------------------------------------------>
-
+<!--------------------------------------------------------------contact-->
 
 <div id="page6">
     <a id="contact" class="smooth"></a>
@@ -615,60 +632,76 @@
     <div class="container contact-container">
         <section class="contact">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                    <div class="jumbotron">
-                        <h2 class="text-uppercase text-color">CONTACT:</h2>
-                    </div> 
-<!--contact form------------------------------>
-                    <div class="hidden-xs media-body">
-                        <blockquote class="quote">
-                            <p class="main-text-bold">The Monkees have recently announced their availability for hire.
-                            It is now possible to have the Monkees perform at a wedding a christmas party or
-                            any other type of event.
-                            <br>
-                            To get in contact or to arrange a booking for an event please provide your details below
-                            including details of the event and a member of our team will be in touch.</p>
-                        </blockquote> 
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="section-title">
+                            <h2 class="title-text-color">CONTACT</h2>
+                        </div>
                     </div>
-                    <div class="media-body">
-                         <blockquote class="visible-xs quote">
-                            <p class="main-text-bold">To get in contact or to arrange a booking for an event please provide your details below
-                            including details of the event and a member of our team will be in touch.</p>
-                        </blockquote> 
-                        <blockquote class="quote">
-                            <h3>Your Details</h3>
-                        </blockquote>
-                        <form>
-                            <div class="form-group input-text">
-                                <label for="name">Full Name</label>
-                                <input type="name" class="form-control" id="name" placeholder="Full Name">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="contact-section">
+                            <div class="hidden-xs hidden-sm media-body">
+                                <blockquote class="quote">
+                                    <p class="main-text-bold">THE MONKEES have recently announced their availability for hire.
+                                    <br>
+                                    It is now possible to have The Monkees perform at an event such as a wedding a christmas party or
+                                    any other type of event.
+                                    <br>
+                                    To get in contact or to arrange a booking for an event please submit your details
+                                    and a member of our management team will be in touch
+                                    to discuss the booking further.</p>
+                                </blockquote>
+                                <div class="contact-image">
+                                    <img src="./images/guitar-logo-white.png" width=250 alt="guitar logo image">
+                                </div>
                             </div>
-                            <div class="form-group input-text">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            <div class="media-body">
+                                <blockquote class="visible-xs visible-sm quote">
+                                    <p class="main-text-bold">The Monkees have recently announced their availability for hire.
+                                    It is now possible to have The Monkees perform at an event such as a wedding a christmas party or
+                                    any other type of event.
+                                    <br>
+                                    To get in contact or to arrange a booking for an event please submit your details
+                                    and a member of our management team will be in touc.
+                                    to discuss the booking further.</p>
+                                </blockquote>
+                                <form action="http://posttestserver.com/post.php" method="post">
+                                    <div class="form-group input-text text-color">
+                                        <label for="name">Full Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="form-group input-text text-color">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                    </div>
+                                    <div class="form-group input-text text-color">
+                                        <label for="phone">Phone Number</label>
+                                        <input type="number" class="form-control" id="phone" placeholder="Phone Number" required>
+                                    </div>
+                                    <div class="form-group input-text text-color">
+                                        <label for="date">Event Date</label>
+                                        <input type="date" class="form-control" id="date" required>
+                                    </div>
+                                    <div class="form-group input-text text-color">
+                                         <label>Event</label>
+                                    </div>
+                                    <div class="form-group input-text">
+                                        <select required>
+                                        <option value="">Choose An Event</option>    
+                                        <option value="wedding">Wedding</option>
+                                        <option value="christmas party">Christmas Party</option>
+                                        <option value="birthday">Birthday</option>
+                                        <option value="other">Other (provide details below)</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group input-text text-color">
+                                        <label>If selecting other event please provide additional details</label>
+                                        <textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-warning">SUBMIT</button>
+                                </form>
                             </div>
-                            <div class="form-group input-text">
-                                <label for="phone">Phone Number</label>
-                                <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
-                            </div>
-                            <div class="form-group input-text">
-                                <label for="date">Date</label>
-                                <input type="date" class="form-control" id="date" placeholder="Date">
-                            </div>
-                            <div class="form-group input-text">
-                                <label for="event">Event</label>
-                                <input type="event" class="form-control" id="event" placeholder="Type Of Event">
-                            </div>
-                            <div class="form-group input-text">
-                                <label for="venue">Venue Details</label>
-                                <textarea class="form-control" rows="3"></textarea>
-                            </div>
-                            <div class="form-group input-text">
-                                <label for="details">Please provide additional details of the event</label>
-                                <textarea class="form-control" rows="3"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-warning">SUBMIT</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -676,7 +709,9 @@
     </div>
 </div>
 
-<!--newsletter-------------------------------->
+</div>
+
+<!--newsletter-->
 
 <div id="page7">
     <a id="newsletter" class="smooth"></a>
@@ -685,28 +720,46 @@
     <div class="container newsletter-container">
         <section class="newsletter">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                    <div class="jumbotron">
-                        <h2 class="text-color">NEWSLETTER:</h2>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="section-title">
+                            <h2 class="title-text-color">NEWSLETTER</h2>
+                        </div>
                     </div>
-
-<!--contact form------------------------------>
-                   
-                    <div class="media-body">
-                        <h4 class="main-text-bold">Sign up to recieve all the latest news, releases and tour dates from the Monkees.</h4>
-                        <h3>Your Details</h3>
-                        <form>
-                             <div class="form-group input-text">
-                                <label for="name">Full Name</label>
-                                <input type="name" class="form-control" id="name" placeholder="Full Name">
+                    <div class="col-xs-12 col-md-12 col-lg-12">
+                        <div class="contact-section">
+                            <div class="hidden-xs hidden-sm media-body">
+                                <blockquote class="quote">
+                                    <p class="main-text-bold">Sign up to our newsletter to receive all the latest news and 
+                                    be the first to know about new releases and tour dates from the Monkees.</p>
+                                </blockquote> 
+                                <div class="newsletter-image">
+                                    <img src="./images/monkeesmag.png" height=150 width=100 alt="monkees mag image">
+                                </div>
                             </div>
-                            <div class="form-group input-text">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            <div class="media-body">
+                                <blockquote class="visible-xs visible-sm quote">
+                                    <p class="main-text-bold">Sign up to our newsletter to receive all the latest news and 
+                                    be the first to know about new releases and tour dates from the Monkees.</p>
+                                </blockquote>
+                                <div class="media-body">
+                                <form action="http://posttestserver.com/post.php" method="post">
+                                    <div class="form-group input-text text-color">
+                                        <label for="name">Full Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="form-group input-text text-color">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                    </div>
+                                    <div class="contact-button">
+                                        <button type="submit" class="btn btn-warning">SUBSCRIBE</button>
+                                    </div>
+                                    <p class="minor-text text-color">By submitting your details you agree to the Terms and Conditions and Privacy Policy</P>
+                                </form>
+                                </div>
                             </div>
-                            <button type="submit" class="btn btn-warning">SUBSCRIBE</button> 
-                            <P class="main-text">By submitting your details you agree to the Terms and Conditions and Privacy Policy</P>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -714,54 +767,35 @@
     </div>
 </div>
 
-
-
 </div>
 
+<!--------------------------------------------------------------------footer-->  
 
-<!--footer------------------------------------------------------------------->  
 <div class="container-wrapper">
-    <div class="container-fluid footer-container">
-        <section class="footer">
-            <div class="row">
-                <div class="col-xs-6">
-                    <p class="footer-brand">THE MONKEES
-                    <br>
-                    2018</p>
-                </div>
-<!--social links--------->               
-                <div class="col-xs-6">
-                    <ul class="list-inline">
-
-                        <li class="social-logo"><a target="blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-                        <li class="social-logo"><a target="blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-                        <li class="social-logo"><a target="blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube-square fa-2x"></i></a></li>
-                    </ul>
-                </div>
-<!--footer links---------->                    
-                <div class="col-xs-12">
-                    <ul class="list-inline footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#band">Band</a></li>
-                        <li><a href="#events">Events</a></li>
-                        <li><a href="#media">Media</a></li>
-                        <li><a href="#news">News</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div> 
-                </div>
+    <div class="container footer-container">
+        <div class="row">
+            <div class="col-xs-6">
+                <p class="footer-brand">THE MONKEES
+                <br>
+                2018</p>
             </div>
-        </section>    
+<!--social links-->               
+            <div class="col-xs-6">
+                <ul class="list-inline">
+                    <li class="social-logo"><a target="blank" href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+                    <li class="social-logo"><a target="blank" href="https://twitter.com/themonkees?lang=en"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+                    <li class="social-logo"><a target="blank" href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube-square fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>     
     </div>
 </div> 
 
-
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </body>
 </html>
-
-
 
 
 
