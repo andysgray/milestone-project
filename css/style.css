@@ -493,26 +493,26 @@ body {
 
     
 @media (max-width: 767px) {
-    .homepage-container {
+    .homepage-container { 
         height: 200px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .homepage-container {
-        height: 400px;
+       height: 400px;
     }
 }
 
 @media(min-width: 992px) and (max-width: 1800px) {
     .homepage-container {
-        height: 600px;
+       height: 600px;
         
     }
 }
 
 @media (min-width: 1800px) {
     .homepage-container {
-        height: 900px;
+       height: 900px;
     }
 }
