@@ -110,7 +110,7 @@ body {
 /*---------------------------------------------------------container boxes*/
 
 
-.title-box {
+.article {
     background-color: rgba(100, 50, 3, 0.70);
     padding: 20px;
     margin-bottom: 25px;
@@ -118,14 +118,14 @@ body {
     border-radius: 5px;
 }
 
-.title-box-2 {
+.article-2 {
     background-color: #fafafa;
     padding: 10px;
     margin: 25px;
     border-radius: 5px;
 }
 
-.title-box-3 {
+.article-3 {
     background-color: #cc9356;
     padding: 10px;
     margin-bottom: 50px;
@@ -314,11 +314,6 @@ body {
     border-radius: 5px;
 }
 
-.media-photos {
-    display: block;
-    padding-bottom: 20px;
-}
-
 
 /*-------------------------------------------------------------news section*/
 
@@ -339,6 +334,9 @@ body {
    -o-background-size: cover;
 }
 
+.news-images {
+    margin-bottom: 30px;
+}
 
 /*-----------------------------------------------------------contact section*/
 
